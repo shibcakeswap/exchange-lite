@@ -1,6 +1,6 @@
 /* eslint-disable prefer-const */
 import { BigDecimal } from "@graphprotocol/graph-ts";
-import { Pair, Token } from "../../../generated/schema";
+import { Pair, Token } from "../../generated/schema";
 import { ZERO_BD, ONE_BD, FIFTY_BD } from "./index";
 
 export let WHITELIST: string[] = [
